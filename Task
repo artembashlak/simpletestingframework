@@ -1,0 +1,35 @@
+Lesson 23 - Home Task
+
+Read about TestNG: http://testng.org/doc/documentation-main.html
+Read about annotations: https://docs.oracle.com/javase/tutorial/java/annotations
+Create a new Gradle project.
+Add TestNG dependency.
+Create several test classes with tests and before / after configuration methods.
+Create a BaseTest class with corresponding before / after annotations. Make it parent for all the test classes.
+Create a test suite xml.
+Run your tests in debug mode to check methods' call sequence.
+Create a repository on GitHub and push sources into separate branch.
+Create a PR from newly created branch into master and add your mentor as a reviewer.
+
+Lesson 24 - Home Task
+
+Add gradle quality plugin to the existing project.
+Fix all violations.
+Play with different TestNG listeners to find out their execution sequence and features.
+Add test-data-supplier library (+ IntelliJ plugin) and try to provide some sample data to the existing tests.
+Create a new PR with update code.
+
+Lesson 25 - Home Task
+
+Play with Lombok library. Try to refactor entities with new annotations.
+Play with different assertions (including soft).
+Create a custom annotation and read its values within any TestNG configuration method or data supplier (introspection).
+
+Home Task - Lesson 26
+
+Replace common logger with Slf4j.
+Create (or generate) custom assertions for existing entities.
+Create an interface for reading data from a custom data source.
+Create concrete implementations for reading data from json and txt format.
+Create a generic utility class for data retrieval.
+Create several tests, which read data from different external data sources.
